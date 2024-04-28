@@ -67,10 +67,10 @@ const Auth = () => {
           </h1>
           <p>OU</p>
           <span className='inline-flex items-center'>
-            <AiFillGithub
+            {/* <AiFillGithub
               onClick={loginHandler}
               className='mr-3 text-4xl cursor-pointer text-black dark:text-white'
-            />{' '}
+            />{' '} */}
             |
             <FcGoogle
               onClick={loginHandler}
