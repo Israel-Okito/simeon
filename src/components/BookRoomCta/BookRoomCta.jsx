@@ -38,13 +38,13 @@ const BookRoomCta = (props) => {
         <span
           className={`${discount ? 'text-gray-400' : ''} font-bold text-xl`}
         >
-          $ {price}
+          dt {price}
         </span>
         {discount ? (
           <span className='font-bold text-xl'>
             {' '}
             | rabais{discount}%. Maintenant{' '}
-            <span className='text-tertiary-dark'>$ {discountPrice}</span>
+            <span className='text-tertiary-dark'>dt {discountPrice}</span>
           </span>
         ) : (
           ''
@@ -129,7 +129,7 @@ const BookRoomCta = (props) => {
       </div>
 
       {calcNoOfDays() > 0 ? (
-        <p className='mt-3'>Total Prix: $ {calcNoOfDays() * discountPrice}</p>
+        <p className='mt-3'>Total Prix: dt {calcNoOfDays() * discountPrice}</p>
       ) : (
         <></>
       )}
