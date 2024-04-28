@@ -57,7 +57,7 @@ export async function POST(req, res) {
         {
           quantity: 1,
           price_data: {
-            currency: 'usd',
+            currency: 'tnd',
             product_data: {
               name: room.name,
               images: room.images.map(image => image.url),

@@ -71,7 +71,7 @@ const Auth = () => {
               onClick={loginHandler}
               className='mr-3 text-4xl cursor-pointer text-black dark:text-white'
             />{' '} */}
-            |
+            
             <FcGoogle
               onClick={loginHandler}
               className='ml-3 text-4xl cursor-pointer'
