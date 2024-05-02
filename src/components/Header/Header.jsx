@@ -18,7 +18,7 @@ const Header = () => {
     <header className='py-5 md:py-10 px-4 container mx-auto text-xl flex flex-wrap sm:flex-nowrap items-center justify-between   z-[999] sticky top-0 backdrop-blur-xl bg-white/10'>
       <div className='flex items-center w-full md:2/3'>
         <Link href='/' className='font-black text-tertiary-dark'>
-          Simeon-hotel
+          Simeon et Audina Hotel
         </Link>
         <ul className='flex items-center ml-5'>
           <li className='flex items-center'>

@@ -80,6 +80,7 @@ export async function POST(req, res) {
         totalPrice
       }
     });
+    // console.log(stripeSession)
 
     return NextResponse.json(stripeSession, {
       status: 200,

@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className='mt-16'>
       <div className='container mx-auto px-4'>
         <Link href='/' className='font-black text-tertiary-dark'>
-           Simeon Hotel
+           Simeon et Audina Hotel
         </Link>
 
         <h4 className='font-semibold text-[40px] py-6'>Contact</h4>
@@ -18,17 +18,17 @@ const Footer = () => {
         <div className='flex flex-wrap gap-16 items-center justify-between'>
           <div className='flex-1'>
             <p>123 Road</p>
+            <div className='flex items-center pt-4'>
+              <BiMessageDetail />
+              <p className='ml-2'> Codeur Simeon et Audina</p>
+            </div>
             <div className='flex items-center py-4'>
               <BsFillSendFill />
-              <Link className='ml-2 text-decoration-none' href='https://okito.vercel.app'> codeur okito dev</Link>
+              <Link className='ml-2 text-decoration-none' href='https://okito.vercel.app'> Aide codeur okito dev</Link>
             </div>
             <div className='flex items-center'>
               <BsTelephoneOutbound />
               <p className='ml-2'>000-000-00</p>
-            </div>
-            <div className='flex items-center pt-4'>
-              <BiMessageDetail />
-              <p className='ml-2'>Simeon et Audina</p>
             </div>
           </div>
 
